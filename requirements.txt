@@ -1,0 +1,12 @@
+pandas
+numpy
+matplotlib
+statsmodels
+pmdarima
+xgboost
+scikit-learn
+streamlit
+plotly
+jupyter
+nbformat
+openpyxl
