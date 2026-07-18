@@ -1,0 +1,2 @@
+Comparison,Loss,n,DM_stat,p_value,Significant_5pct
+XGBoost vs SARIMA,squared error,15,-0.8899,0.3885,False

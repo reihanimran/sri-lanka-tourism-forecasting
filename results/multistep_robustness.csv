@@ -1,0 +1,3 @@
+Model,MAE,RMSE,MAPE
+XGBoost (recursive multi-step),33026.97,39165.74,16.81
+Seasonal Naive (fixed origin),30952.67,34764.29,15.05

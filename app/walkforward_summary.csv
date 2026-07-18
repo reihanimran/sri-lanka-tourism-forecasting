@@ -1,0 +1,4 @@
+Model,Mean MAPE,Median MAPE,Best Window Count
+SARIMA,25.09,14.02,6
+XGBoost,27.47,18.51,4
+SARIMA-XGBoost Hybrid,24.05,13.44,6

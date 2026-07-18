@@ -1,0 +1,17 @@
+,Version,MAE,RMSE,MAPE,WAPE
+Seasonal Naive,zero,27869.0,29655.0,14.19,13.47
+SARIMA,zero,42083.0,48964.0,22.89,20.34
+"Auto-SARIMA (3, 0, 0)(1, 0, 0, 12)",zero,27109.0,38139.0,12.36,13.1
+SARIMAX,zero,42083.0,48964.0,22.89,20.34
+XGBoost (default 200/4/0.05),zero,31507.0,38651.0,16.63,15.23
+XGBoost (tuned 300/5/0.03/0.8),zero,33577.0,40768.0,18.12,16.23
+Hybrid (default 50/2),zero,44935.0,51957.0,24.43,21.72
+Hybrid (tuned 25/2),zero,43836.0,50880.0,23.93,21.19
+Seasonal Naive,synthetic,27869.0,29655.0,14.19,13.47
+SARIMA,synthetic,38292.0,45681.0,21.51,18.51
+"Auto-SARIMA (0, 1, 0)(0, 0, 0, 12)",synthetic,51579.0,62546.0,30.43,24.93
+SARIMAX,synthetic,38292.0,45681.0,21.51,18.51
+XGBoost (default 200/4/0.05),synthetic,38001.0,47205.0,18.92,18.37
+XGBoost (tuned 100/5/0.03/1.0),synthetic,52005.0,64486.0,27.1,25.14
+Hybrid (default 50/2),synthetic,40352.0,47289.0,22.39,19.51
+Hybrid (tuned 25/2),synthetic,39036.0,46073.0,21.58,18.87

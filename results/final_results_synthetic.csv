@@ -1,0 +1,7 @@
+Model,MAPE
+Seasonal Naive,14.19
+XGBoost,18.92
+SARIMA,21.51
+SARIMAX,21.51
+SARIMA-XGBoost Hybrid,22.39
+Auto-SARIMA,30.43
