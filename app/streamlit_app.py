@@ -65,10 +65,11 @@ monthly = monthly.sort_values('Date')
 # Top metrics
 c1,c2,c3,c4 = st.columns(4)
 c1.metric("Total Arrivals", f"{int(monthly['Arrivals'].sum()):,}")
-c2.metric("Months of Data", len(monthly))
+c2.metric("Months Recorded", len(monthly))
 c3.metric("Monthly Average", f"{int(monthly['Arrivals'].mean()):,}")
 peak = monthly.loc[monthly['Arrivals'].idxmax()]
 c4.metric("Peak Month", peak['Date'].strftime('%b %Y'))
+st.caption("Months Recorded counts months with reported arrivals; the modelling series spans 99 months (Jan 2018 – Mar 2026) with the 8 border-closure months (Apr–Nov 2020) retained as zero.")
 st.markdown("---")
 
 # Tabs
