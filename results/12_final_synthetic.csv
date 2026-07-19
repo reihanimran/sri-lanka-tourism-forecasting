@@ -1,0 +1,5 @@
+Model,MAPE
+Seasonal Naive,14.19
+SARIMA,21.51
+SARIMA-XGBoost Hybrid (tuned),21.58
+XGBoost (tuned),27.1
